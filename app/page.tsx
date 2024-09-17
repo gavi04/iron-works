@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { ChevronRight, Mail, Phone } from 'lucide-react';
+import {  Mail, Phone } from 'lucide-react';
 import { ThreeDCardDemo } from '@/components/Cards';
-import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
+
 
 export default function Component() {
   return (
@@ -52,7 +52,7 @@ export default function Component() {
             </div>
           </h3>
           <p className="text-lg md:text-xl text-white">
-            Discover our  wide range of iron products.
+            Discover our  wide range of iron products..
           </p>
         </section>
 
